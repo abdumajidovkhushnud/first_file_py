@@ -7,7 +7,7 @@ gezahltMit = 50.00
 Wechselgeld = gezahltMit - zuZahlen
 
 print ()
-print (f"Sie bekommen {Wechselgeld:0.2f}€ zurück")
+print (f"Sie bekommen {Wechselgeld:.2f}€ zurück")
 print ()
 
 # E20 = int(Wechselgeld / 20)
